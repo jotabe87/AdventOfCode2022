@@ -1,0 +1,1 @@
+fun readInput(filename: String) =  {}.javaClass.getResource(filename)!!.readText()
