@@ -9,6 +9,6 @@ fun main() {
         .sortedDescending()
 
     println(summedUpCalories[0])
-    println(summedUpCalories.subList(0, 3).sum())
+    println(summedUpCalories.take( 3).sum())
 }
 
